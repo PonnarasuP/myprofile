@@ -26,7 +26,7 @@ export default function App() {
         {/* Left Column - Personal Info */}
         <div className="bg-slate-900 text-white p-6 md:p-8 flex flex-col items-center text-center">
           <div className="w-40 h-40 rounded-full bg-gray-700 mb-6 overflow-hidden border-4 border-slate-700">
-             <img src="https://raw.githubusercontent.com/PonnarasuP/myprofile/main/photo.png" alt="Ponnarasu P" className="w-full h-full object-cover" />
+             <img src="https://raw.githubusercontent.com/PonnarasuP/myprofile/master/photo.png" alt="Ponnarasu P" className="w-full h-full object-cover" />
           </div>
           <h1 className="text-2xl font-bold mb-2">Ponnarasu P</h1>
           <p className="text-slate-400 font-medium mb-6">Software Test Architect | Automotive Cockpit Domain</p>
@@ -41,6 +41,11 @@ export default function App() {
             <div className="flex items-center justify-center gap-2 break-all">
               <Mail className="w-4 h-4" /> periyasamy.ponnarasu@in.bosch.com
             </div>
+          </div>
+          <div className="mt-8 pt-6 border-t border-slate-700 w-full text-sm text-slate-300 space-y-3">
+             <h3 className="font-semibold text-white flex items-center justify-center gap-2"><User className="w-4 h-4" /> Personal Details</h3>
+             <p>DOB: 15.06.1986</p>
+             <p>Marital Status: Married</p>
           </div>
         </div>
 
