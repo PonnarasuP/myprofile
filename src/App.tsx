@@ -8,15 +8,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Mail, MapPin, Briefcase, Award, Zap, Cpu, Target } from "lucide-react";
+import { Mail, MapPin, Briefcase, Layers, Terminal, MonitorPlay, KanbanSquare } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function App() {
   const competencies = [
-    { title: "Test Architecture", icon: Cpu, desc: "Designing robust, scalable test frameworks for embedded systems and automotive middleware." },
-    { title: "Python Automation", icon: Zap, desc: "Expert-level scripting for end-to-end automation, tool development, and CI/CD integration." },
-    { title: "Infotainment", icon: Award, desc: "Deep expertise in validating complex HMI, telematics, and in-car entertainment." },
-    { title: "Project Mgmt", icon: Target, desc: "Leading cross-functional teams and managing large-scale validation lifecycles." },
+    { title: "Test Architecture", icon: Layers, desc: "Designing robust, scalable test frameworks for embedded systems and automotive middleware." },
+    { title: "Python Automation", icon: Terminal, desc: "Expert-level scripting for end-to-end automation, tool development, and CI/CD integration." },
+    { title: "Infotainment", icon: MonitorPlay, desc: "Deep expertise in validating complex HMI, telematics, and in-car entertainment." },
+    { title: "Project Mgmt", icon: KanbanSquare, desc: "Leading cross-functional teams and managing large-scale validation lifecycles." },
   ];
 
   return (
